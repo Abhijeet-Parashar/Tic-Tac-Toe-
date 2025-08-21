@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #548687;
+    text-align: center;
+
+}
+
+/*  we cam use pixel insted of vh or v min*/
+
+
+.container {
+    height: 70vh;
+    /* vh view port height of page always 70 % to container*/
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game {
+    height: 60vmin;
+    /* vmin= 60% of viewport height */
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    /* 3 parts of 60 % vmin 3 bax in a line*/
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color: wheat;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color: wheat;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: wheat;
+    font-size: 5vmin;
+
+}
+
+.msg-container {
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.hide {
+    display: none;
+}
